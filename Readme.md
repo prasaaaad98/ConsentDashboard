@@ -6,7 +6,7 @@
 ### Hindi Language
 ![Hindi Dashboard](screenshots/dashboard2.png)
 
-### Mobile View
+### Consent Cards
 ![Mobile Dashboard](screenshots/dashboard3.png)
 ![Mobile Dashboard](screenshots/dashboard4.png)
 ![Mobile Dashboard](screenshots/dashboard5.png)
