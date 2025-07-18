@@ -135,7 +135,7 @@ export function ConsentCards({ consents }: ConsentCardsProps) {
                               <span>
                                 <Badge variant="outline" className={`h-7 px-4 text-sm font-semibold flex items-center justify-center rounded-full transition duration-200 ease-in-out hover:brightness-105 hover:saturate-110 min-w-[100px] ${getRiskColor(consent.riskLevel)}`}>
                                   {t("risk")}: {t(consent.riskLevel)}
-                                </Badge>
+                    </Badge>
                               </span>
                             </TooltipTrigger>
                             <TooltipContent className="max-w-xs">
@@ -150,7 +150,7 @@ export function ConsentCards({ consents }: ConsentCardsProps) {
                                 <Button size="sm" variant="destructive">Revoke</Button>
                                 <Button size="sm" variant="outline">Modify</Button>
                                 <Button size="sm" variant="secondary">Investigate Access</Button>
-                              </div>
+                  </div>
                             </TooltipContent>
                           </Tooltip>
                         </TooltipProvider>
@@ -216,8 +216,8 @@ export function ConsentCards({ consents }: ConsentCardsProps) {
                         <span className="font-medium text-left">{consent.guestLocker}</span>
                         <span className="text-gray-600 text-right">{t("purpose")}:</span>
                         <span className="font-medium text-left">{consent.purpose}</span>
-                      </div>
-                    </div>
+                        </div>
+                        </div>
                     <div>
                       <h4 className="font-medium text-gray-900 mb-2 text-center">{t("timeline")}</h4>
                       <div className="grid grid-cols-2 gap-x-4 gap-y-2 text-sm items-center">
@@ -264,8 +264,8 @@ export function ConsentCards({ consents }: ConsentCardsProps) {
                           <div className="space-y-1 text-xs text-gray-500">
                             <div>2024-01-15 12:30:45 - Accessed by user</div>
                             <div>2024-01-10 08:45:12 - Consent created</div>
-                          </div>
-                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 {/* Action Buttons: Download Data & Revoke Consent */}

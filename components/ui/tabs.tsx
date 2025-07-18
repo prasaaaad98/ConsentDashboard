@@ -30,17 +30,17 @@ const TabsList = React.forwardRef<
 
   return (
     <div className={cn("relative", className)}>
-      <TabsPrimitive.List
+  <TabsPrimitive.List
         ref={(node) => {
           listRef.current = node as HTMLDivElement
           if (typeof ref === 'function') ref(node as HTMLDivElement)
           else if (ref) (ref as React.MutableRefObject<HTMLDivElement | null>).current = node as HTMLDivElement
         }}
-        className={cn(
+    className={cn(
           "inline-flex h-10 items-center justify-center rounded-md bg-muted p-1 text-muted-foreground relative z-10",
-          className
-        )}
-        {...props}
+      className
+    )}
+    {...props}
       >
         {children}
       </TabsPrimitive.List>
